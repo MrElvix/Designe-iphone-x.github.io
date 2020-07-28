@@ -2,43 +2,48 @@
 body{
     margin: 0px;
     padding: 0px;
-  
 }
 
 
 .carcasa{
+   
     opacity: 0.7;
     border-radius: 20px;
     width: 200px;
     height: 400px;
     background-color: beige;
-    position: absolute;
-    left: 40%;
+    position: relative;
+    left: 30%;
     top: 100px;
     z-index: 2;
     border: 10px solid black;
 }
+
+
+.triangulo{
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+    border-top: 210px solid rgb(255 214 101); 
+    border-right: 200px solid transparent; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
 .logo img{
     
     width: 40px;
     height: 40px;
-    position: relative;
-    top: 205px;
-    left: 46%;
-    z-index: 3;
+    position: absolute;
+    top: 90px;
+    left: 75px;
     opacity: 0.6;
-}
-.triangulo{
-    width: 0px;
-    height: 0px;
-    opacity: 1;
-    border-top: 210px solid rgb(255 214 101); 
-    border-right: 200px solid transparent; 
-    position: relative;
-    top: 66px;
-    left: 40.5%;
     z-index: 1;
+
 }
+
 
 .camara{
     width: 30px;
@@ -47,21 +52,22 @@ body{
     border-radius: 20px;
     position: absolute;
     z-index: 4;
-    top: 117px;
-    left: 565px;
+    top: 10px;
+    left: 10px;
 }
 
 .cam1 img{
     width: 30px;
     height: 30px;
     border-radius: 15px;
-
+    position: absolute;
 }
 .cam2 img{
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    margin-top: 12px;
+    margin-top: 50px;
+    position: absolute;
   
 }
 .camara .light{
@@ -69,10 +75,10 @@ body{
     height: 15px;
     background-color: cornsilk;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 3px solid rgb(255, 166, 0);
     position: absolute;
     top: 31px;
-    left: 6px;
+    left: 4px;
 }
 
 
