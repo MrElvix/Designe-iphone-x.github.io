@@ -13,10 +13,11 @@ body{
     height: 400px;
     background-color: beige;
     position: relative;
-    left: 30%;
+    left: 30%   ;
     top: 100px;
     z-index: 2;
     border: 10px solid black;
+    box-shadow: 7px -11px 7px 1px rgba(0,0,0,0.75);
 }
 
 
